@@ -1,0 +1,17 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        TreeMap<String, Integer> wordLengthMap = new TreeMap<>();
+
+        wordLengthMap.put("apple","apple".length());
+        wordLengthMap.put("banana","banana".length());
+        wordLengthMap.put("strawberry","strawberry".length());
+        wordLengthMap.put("mango","mango".length());
+        wordLengthMap.put("orange","orange".length());
+
+        System.out.println("treemap contents in sorted order: ");
+        for (Map.Entry<String, Integer> entry : wordLengthMap.entrySet()) {
+            System.out.println("Word: " + entry.getKey() + ", Length: " + entry.getValue());
+        }
+}
+}
