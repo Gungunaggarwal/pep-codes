@@ -1,0 +1,16 @@
+import java.util.TreeSet;
+
+public class TreeSetExample {
+    public static void main(String[] args) {
+        // Create a TreeSet of integers
+        TreeSet<Integer> treeSet = new TreeSet<>();
+
+        // Add elements to the set
+        treeSet.add(50);
+        treeSet.add(20);
+        treeSet.add(40);
+
+        // Print the elements of the set
+        System.out.println("Elements in sorted order: " + treeSet);
+    }
+}
